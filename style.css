@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;line-height:1.6;margin:0;color:#18324b;background:#f8fbfd}
+.hero{text-align:center;padding:60px 20px;background:#ffffff}
+.hero img{width:180px;height:180px;border-radius:50%;object-fit:cover}
+section{max-width:1000px;margin:30px auto;padding:25px;background:white;border-radius:12px}
+h1{font-size:38px}
+h2{color:#0b6075}
+a{color:#007c91;text-decoration:none}
