@@ -1,25 +1,45 @@
-# Ali Ghorbani Ranjbary — Academic Website
+# Ali Ghorbani Ranjbary – Personal Academic Website
 
-A responsive GitHub Pages academic website inspired by the structure and visual feel of the supplied reference site.
+A clean, multi-page static website designed for **GitHub Pages**, similar in structure to academic sites like [albruzos.github.io](https://albruzos.github.io/).
 
-## Pages
-- Home
-- News
-- CV
-- Publications
-- Funding
-- Awards
-- Teaching
-- Conferences
+## Pages included
 
-## Deploy to GitHub Pages
-1. Upload all files and folders in this package to the root of the repository.
-2. Commit and push to GitHub.
-3. In GitHub: Settings → Pages → Deploy from a branch → select `main` and `/ (root)`.
-4. The site will be available at the repository's GitHub Pages address.
+- `index.html` – Home / About
+- `experience.html` – Professional experience, mentoring, services
+- `education.html` – Education & awards
+- `publications.html` – Journals, under-review papers, book chapters
+- `research.html` – Research interests & skills
+- `other.html` – Grants, patent, conferences
+- `contact.html` – Contact information
 
-The website uses relative links so it works both for a user site and a project site.
+## How to deploy on GitHub Pages
 
-## Included assets
-- `assets/profile.jpg` — supplied profile photo
-- `assets/Ali_Ghorbani_Ranjbary_CV.pdf` — supplied CV PDF
+1. Create a new GitHub repository (e.g. `yourusername.github.io` or `ali-ghorbani-site`).
+2. Upload all files and the `css` folder to the repository (keep the same structure).
+3. Go to **Settings → Pages**.
+4. Under **Source**, select the branch (usually `main`) and folder `/ (root)`.
+5. Save. Your site will be live at `https://yourusername.github.io/` (or `https://yourusername.github.io/repo-name/`).
+
+## Customization
+
+- Edit the HTML files to update content, add real email / Google Scholar / ORCID links.
+- Change colors in `css/style.css` (variables at the top).
+- Add more pages by copying an existing HTML file and linking it in the navigation of all pages.
+
+## Local preview
+
+Just open `index.html` in any browser, or use a simple local server:
+
+```bash
+# Python
+python -m http.server 8000
+
+# or Node
+npx serve .
+```
+
+Then visit http://localhost:8000
+
+---
+
+Built as a simple static site – no build tools required.
