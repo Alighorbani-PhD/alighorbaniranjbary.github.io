@@ -1,45 +1,61 @@
-# Ali Ghorbani Ranjbary – Personal Academic Website
+# Ali Ghorbani Ranjbary – Academic Website
 
-A clean, multi-page static website designed for **GitHub Pages**, similar in structure to academic sites like [albruzos.github.io](https://albruzos.github.io/).
+Personal academic website inspired by [albruzos.github.io](https://albruzos.github.io/), designed for **GitHub Pages**.
 
-## Pages included
+## Structure
 
-- `index.html` – Home / About
-- `experience.html` – Professional experience, mentoring, services
-- `education.html` – Education & awards
-- `publications.html` – Journals, under-review papers, book chapters
-- `research.html` – Research interests & skills
-- `other.html` – Grants, patent, conferences
-- `contact.html` – Contact information
+```
+ali-site-v2/
+├── index.html          ← News / Home (with profile sidebar + banners)
+├── cv.html
+├── publications.html
+├── funding.html
+├── awards.html
+├── teaching.html
+├── conferences.html
+├── css/style.css
+├── images/profile.jpg  ← Your photo
+└── README.md
+```
+
+## Pages
+
+| Page | Content |
+|------|---------|
+| **News** (index) | Home with photo, bio, location, latest highlights |
+| **CV** | Full curriculum vitae |
+| **Publications** | Journals, under-review, book chapters |
+| **Funding** | Grants + Patent |
+| **Awards** | Recognitions & reviewer activity |
+| **Teaching** | Mentoring & student supervision |
+| **Conferences** | Selected conference presentations |
 
 ## How to deploy on GitHub Pages
 
-1. Create a new GitHub repository (e.g. `yourusername.github.io` or `ali-ghorbani-site`).
-2. Upload all files and the `css` folder to the repository (keep the same structure).
-3. Go to **Settings → Pages**.
-4. Under **Source**, select the branch (usually `main`) and folder `/ (root)`.
-5. Save. Your site will be live at `https://yourusername.github.io/` (or `https://yourusername.github.io/repo-name/`).
+1. Download and unzip this folder.
+2. Create or go to your repository:  
+   `https://github.com/alighorbani-phd/alighorbaniranjbary.github.io`
+3. Upload **all files** (keep the folder structure).
+4. Go to **Settings → Pages**.
+5. Source: Deploy from branch `main` / root.
+6. Wait 1–2 minutes → site will be live.
 
-## Customization
+## Customization needed
 
-- Edit the HTML files to update content, add real email / Google Scholar / ORCID links.
-- Change colors in `css/style.css` (variables at the top).
-- Add more pages by copying an existing HTML file and linking it in the navigation of all pages.
+- Replace the `#` links in the sidebar (Email, Google Scholar, ORCID, ResearchGate) with your real URLs.
+- You can change the banner texts/colors in `index.html`.
+- To add a real banner image: put an image in `images/` and replace the `.banner-placeholder` div with an `<img>`.
 
 ## Local preview
 
-Just open `index.html` in any browser, or use a simple local server:
+Open `index.html` in a browser, or run:
 
 ```bash
-# Python
 python -m http.server 8000
-
-# or Node
-npx serve .
 ```
 
 Then visit http://localhost:8000
 
 ---
 
-Built as a simple static site – no build tools required.
+Built as pure static HTML/CSS – no build step required.
