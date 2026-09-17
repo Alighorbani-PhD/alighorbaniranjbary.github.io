@@ -1,16 +1,25 @@
-# Ali Ghorbani Ranjbary — Academic GitHub Pages Website
+# Ali Ghorbani Ranjbary — Academic Website
 
-A multi-page, static academic website prepared for GitHub Pages.
+A responsive GitHub Pages academic website inspired by the structure and visual feel of the supplied reference site.
 
 ## Pages
-Home · About · Research · Publications · Experience · Education · Awards · Conferences · Grants · Books · Mentoring · Services · Skills · CV · Contact
+- Home
+- News
+- CV
+- Publications
+- Funding
+- Awards
+- Teaching
+- Conferences
 
-## Deploy
-1. Create/use the GitHub Pages repository.
-2. Upload the contents of this folder to the repository root.
-3. In GitHub: Settings → Pages → Deploy from a branch → main → / (root).
-4. Replace the photo placeholder and contact email.
-5. The PDF in `assets/Ali_Ghorbani_Ranjbary_CV.pdf` is the supplied CV.
+## Deploy to GitHub Pages
+1. Upload all files and folders in this package to the root of the repository.
+2. Commit and push to GitHub.
+3. In GitHub: Settings → Pages → Deploy from a branch → select `main` and `/ (root)`.
+4. The site will be available at the repository's GitHub Pages address.
 
-## Important
-The page content was populated from the supplied CV. Please verify contact details, publication metadata, and links before public release.
+The website uses relative links so it works both for a user site and a project site.
+
+## Included assets
+- `assets/profile.jpg` — supplied profile photo
+- `assets/Ali_Ghorbani_Ranjbary_CV.pdf` — supplied CV PDF
