@@ -1,68 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Funding — Ali Ghorbani Ranjbary</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funding · Ali Ghorbani Ranjbary</title>
+<meta name="description" content="Academic website of Ali Ghorbani Ranjbary, DVM-Ph.D. Molecular Biology Researcher.">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <nav class="top-nav">
-    <a href="index.html" class="nav-brand">Ali Ghorbani Ranjbary</a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">News</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="funding.html" class="active">Funding</a></li>
-      <li><a href="awards.html">Awards</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="conferences.html">Conferences</a></li>
-    </ul>
-    <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
-  </nav>
-
-  <div class="page-wrapper">
-    <aside class="sidebar">
-      <img src="images/profile.jpg" alt="Ali Ghorbani Ranjbary" class="profile-photo">
-      <h1>Ali Ghorbani Ranjbary</h1>
-      <p class="bio">DVM-Ph.D.<br>Molecular Biology Researcher</p>
-      <div class="info-item"><span class="icon">📍</span><span>Tehran, Iran</span></div>
-      <div class="info-item"><span class="icon">🏛️</span><span>University of Tehran</span></div>
-    </aside>
-
-    <main class="main-content">
-      <h2>Grants & Funding</h2>
-
-      <div class="card">
-        <h3>G1. CRISPR-Cas13a Lentiviral System</h3>
-        <p class="meta">IR-TU-1399.12</p>
-        <p>Design and synthesis of lentiviruses equipped with CRISPR-Cas13a system to control PD1 expression and increase P70S6K gene expression in PBMC cells.</p>
-      </div>
-
-      <div class="card">
-        <h3>G2. Glycoconjugates in Colorectal Cancer</h3>
-        <p class="meta">IR-FU-1395.07.15</p>
-        <p>Study of the expression profile of cytokines and enzymes involved in the formation of Glycoconjugates in leukocytes and epithelial cells of colorectal cancer.</p>
-      </div>
-
-      <div class="card">
-        <h3>G3. Functional Food & Lipid Profiles</h3>
-        <p class="meta">IR-Young Researchers Club-1393.01.25</p>
-        <p>Study on the effects of consumption of milk containing Artemia urmiana and Lactobacillus acidophilus on serum lipid profiles in rats fed with high-fat food.</p>
-      </div>
-
-      <h2>Patent</h2>
-      <div class="card">
-        <h3>Selective Removal of Heavy Metals from Tuna Flesh</h3>
-        <p>Process for Selective Removal of Heavy Metals (Lead, Mercury, Cadmium, and Arsenic) from Tuna Flesh (Species: Yellowfin and Skipjack) via Ascorbic Acid Complexation Aimed at Producing Canned Tuna with Safety Levels Exceeding International Standards.</p>
-        <p class="meta">Patent No.: 140550140003003606</p>
-      </div>
-    </main>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="../index.html">Ali Ghorbani Ranjbary</a>
+    <nav class="nav"><a href="../index.html" class="">Home</a><a href="news.html" class="">News</a><a href="cv.html" class="">CV</a><a href="publications.html" class="">Publications</a><a href="funding.html" class="active">Funding</a><a href="awards.html" class="">Awards</a><a href="teaching.html" class="">Teaching</a><a href="talks.html" class="">Conferences</a></nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
   </div>
-
-  <footer>© 2026 Ali Ghorbani Ranjbary · Built for GitHub Pages</footer>
-  <script>
-    document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open')));
-  </script>
+  <nav class="mobile-nav"><a href="../index.html">Home</a><a href="news.html">News</a><a href="cv.html">CV</a><a href="publications.html">Publications</a><a href="funding.html">Funding</a><a href="awards.html">Awards</a><a href="teaching.html">Teaching</a><a href="talks.html">Conferences</a></nav>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <img class="avatar" src="../profile.jpg" alt="Ali Ghorbani Ranjbary">
+    <div>
+      <h2>Ali Ghorbani Ranjbary</h2>
+      <div class="role">DVM-Ph.D. · Molecular Biology Researcher</div>
+      <div class="meta">
+        <div><span class="icon">●</span> Tehran, Iran</div>
+        <div><span class="icon">◆</span> University of Tehran</div>
+        <div><span class="icon">✉</span> Contact details in CV</div>
+      </div>
+    </div>
+  </aside>
+  <main class="main">
+<div class="page-title"><h1>Funding</h1><p>Grants, research projects and patent process listed in the supplied CV.</p></div>
+<div class="list-item"><h3>G1. CRISPR-Cas13a lentiviral project</h3><p>Design and synthesis of lenti-viruses equipped with Crispr-cas13a system to control PD1 expression and increase P70S6K gene expression in PBMC cells. <span class="tag">IR-TU-1399.12</span></p></div>
+<div class="list-item"><h3>G2. Colorectal cancer glycoconjugates project</h3><p>Study of the expression profile of cytokines and enzymes involved in the formation of Glycoconjugates in leukocytes and epithelial cells of colorectal cancer. <span class="tag">IR-FU-1395.07.15</span></p></div>
+<div class="list-item"><h3>G3. Artemia/Lactobacillus animal study</h3><p>Study on the effects of consumption of milk containing Artemia urmiana and Lactobacillus acidophilus on serum lipid profiles in rats fed with high-fat food. <span class="tag">IR-Young Researchers Club-1393.01.25</span></p></div>
+<div class="list-item"><h3>Patent process</h3><p>Selective removal of heavy metals (lead, mercury, cadmium and arsenic) from tuna flesh via ascorbic acid complexation, aimed at producing canned tuna with safety levels exceeding international standards.</p></div>
+</main>
+</div>
+<footer>© 2026 Ali Ghorbani Ranjbary · Academic website</footer>
+<script src="../script.js"></script>
 </body>
 </html>

@@ -1,93 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV — Ali Ghorbani Ranjbary</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV · Ali Ghorbani Ranjbary</title>
+<meta name="description" content="Academic website of Ali Ghorbani Ranjbary, DVM-Ph.D. Molecular Biology Researcher.">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <nav class="top-nav">
-    <a href="index.html" class="nav-brand">Ali Ghorbani Ranjbary</a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">News</a></li>
-      <li><a href="cv.html" class="active">CV</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="funding.html">Funding</a></li>
-      <li><a href="awards.html">Awards</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="conferences.html">Conferences</a></li>
-    </ul>
-    <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
-  </nav>
-
-  <div class="page-wrapper">
-    <aside class="sidebar">
-      <img src="images/profile.jpg" alt="Ali Ghorbani Ranjbary" class="profile-photo">
-      <h1>Ali Ghorbani Ranjbary</h1>
-      <p class="bio">DVM-Ph.D.<br>Molecular Biology Researcher<br>Immunology & Tumor Microenvironment</p>
-      <div class="info-item"><span class="icon">📍</span><span>Tehran, Iran</span></div>
-      <div class="info-item"><span class="icon">🏛️</span><span>University of Tehran</span></div>
-      <div class="info-item"><span class="icon">✉️</span><a href="mailto:">Email</a></div>
-      <div class="info-item"><span class="icon">🔗</span><a href="#" target="_blank">Google Scholar</a></div>
-    </aside>
-
-    <main class="main-content">
-      <h2>Curriculum Vitae</h2>
-
-      <h3>Current Appointments</h3>
-      <div class="card">
-        <p><strong>Molecular Biology Researcher</strong><br>
-        Department of Immunology, University of Tehran, Iran</p>
-        <p style="margin-top:0.8rem;"><strong>DVM</strong><br>
-        Tabiat Company, Tehran, Iran</p>
-      </div>
-
-      <h3>Education</h3>
-      <div class="card">
-        <p><strong>Ph.D.</strong> — Ferdowsi University of Mashhad, Mashhad, Iran (2015–2020)<br>
-        <span class="meta">GPA: 17.59 / 20</span><br>
-        Thesis: Study of the expression profile of cytokines and enzymes involved in the formation of Glycoconjugates in leukocytes and epithelial cells of colorectal cancer.</p>
-      </div>
-      <div class="card">
-        <p><strong>DVM</strong> — Islamic Azad University of Kazerun, School of Veterinary Medicine, Iran<br>
-        <span class="meta">GPA: 16.85 / 20</span><br>
-        Thesis: Assess the prevalence of Clarithromycin resistance point mutations A2142G, A2143G, A2144G in H. pylori strains isolated from sheep milk compared with samples isolated from patients by PCR-RFLP.</p>
-      </div>
-
-      <h3>Professional Experience</h3>
-      <div class="card">
-        <p><strong>Postdoctoral Research Scholar</strong><br>
-        University of Tehran, Tehran, Iran (2020–2021)<br>
-        Project: Design and synthesis of lentiviruses equipped with CRISPR-Cas13a system to control PD1 expression and increase P70S6K gene expression in PBMC cells.</p>
-      </div>
-
-      <h3>Research Interests</h3>
-      <div class="card">
-        <p><strong>Immunology and Tumor Microenvironment</strong><br>
-        Cell signaling, Data Analysis/Mining, Tumor microenvironment analysis, Trans-signaling, Apoptosis, Metastasis, Cancer research, Immunosurveillance, DNA mismatch repair.</p>
-        <p style="margin-top:0.8rem;"><strong>Cloning and Engineering</strong><br>
-        CRISPR-Cas13a & Cas9, T-cell engineering, PD1/PDL1 signaling, Lentiviral transduction, RNA analysis, Genome research.</p>
-      </div>
-
-      <h3>Skills</h3>
-      <div class="card">
-        <p><strong>Lab:</strong> RT-qPCR, Western Blotting, Electrophoresis, DAPI, MTT, Flow cytometry, SEM/TEM, IHC, Bioluminescence, Tissue culture, Primer design, Cloning, Lentiviral & AAV transduction, CRISPR Cas9/13 & gRNA design, Protein purification.</p>
-        <p style="margin-top:0.8rem;"><strong>Analysis:</strong> GraphPad Prism 9, SnapGene, CLC, Oligo 7, BioEdit, Beacon Designer, NGS (RNA-Seq), GEO DataSets & Microarray analysis.</p>
-        <p style="margin-top:0.8rem;"><strong>Languages:</strong> Persian (Native), English (Fluent)</p>
-      </div>
-
-      <h3>Professional Affiliations</h3>
-      <ul>
-        <li>Iran's National Elites Foundation (INEF)</li>
-        <li>Office of Talent Guidance, Ferdowsi University of Mashhad</li>
-      </ul>
-    </main>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="../index.html">Ali Ghorbani Ranjbary</a>
+    <nav class="nav"><a href="../index.html" class="">Home</a><a href="news.html" class="">News</a><a href="cv.html" class="active">CV</a><a href="publications.html" class="">Publications</a><a href="funding.html" class="">Funding</a><a href="awards.html" class="">Awards</a><a href="teaching.html" class="">Teaching</a><a href="talks.html" class="">Conferences</a></nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
   </div>
+  <nav class="mobile-nav"><a href="../index.html">Home</a><a href="news.html">News</a><a href="cv.html">CV</a><a href="publications.html">Publications</a><a href="funding.html">Funding</a><a href="awards.html">Awards</a><a href="teaching.html">Teaching</a><a href="talks.html">Conferences</a></nav>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <img class="avatar" src="../profile.jpg" alt="Ali Ghorbani Ranjbary">
+    <div>
+      <h2>Ali Ghorbani Ranjbary</h2>
+      <div class="role">DVM-Ph.D. · Molecular Biology Researcher</div>
+      <div class="meta">
+        <div><span class="icon">●</span> Tehran, Iran</div>
+        <div><span class="icon">◆</span> University of Tehran</div>
+        <div><span class="icon">✉</span> Contact details in CV</div>
+      </div>
+    </div>
+  </aside>
+  <main class="main">
+<div class="page-title"><h1>Curriculum Vitae</h1><p>Academic and research profile of Ali Ghorbani Ranjbary, DVM-Ph.D.</p></div>
+<p><a class="btn" href="../Ali_Ghorbani_Ranjbary_CV.pdf" target="_blank">Open / Download CV PDF</a></p>
 
-  <footer>© 2026 Ali Ghorbani Ranjbary · Built for GitHub Pages</footer>
-  <script>
-    document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open')));
-  </script>
+<h2 class="section-title">Appointment</h2>
+<div class="timeline">
+  <div class="event"><strong>Molecular Biology Researcher</strong><br>Department of Immunology, University of Tehran, Iran.</div>
+  <div class="event"><strong>DVM</strong><br>Tabiat company, Tehran, Iran.</div>
+  <div class="event"><strong>Postdoctoral Research Scholar</strong><br>Tehran University of Tehran, Tehran, Iran · 2020–2021.</div>
+</div>
+
+<h2 class="section-title">Education</h2>
+<div class="timeline">
+  <div class="event"><strong>Ph.D., Ferdowsi University of Mashhad</strong><br>2015–2020 · GPA 17.59/20. Thesis: Study of the expression profile of cytokines and enzymes involved in the formation of Glycoconjugates in leukocytes and epithelial cells of colorectal cancer.</div>
+  <div class="event"><strong>DVM, Islamic Azad University of Kazerun</strong><br>GPA 16.85/20. Thesis on clarithromycin resistance point mutations in H. pylori strains using PCR-RFLP.</div>
+</div>
+
+<h2 class="section-title">Research background</h2>
+<div class="grid2">
+  <div class="info-box"><h3>Immunology & tumor microenvironment</h3><p>Cell signaling, data analysis/mining, tumor microenvironment analysis, trans-signaling, apoptosis, metastasis, cancer research, immunosurveillance and DNA mismatch repair.</p></div>
+  <div class="info-box"><h3>Cloning & engineering</h3><p>CRISPR Cas13a and 9, T-cell engineering, PD1/PDL1 signaling, lentiviral transduction, RNA analysis and genome research.</p></div>
+</div>
+</main>
+</div>
+<footer>© 2026 Ali Ghorbani Ranjbary · Academic website</footer>
+<script src="../script.js"></script>
 </body>
 </html>

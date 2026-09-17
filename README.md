@@ -1,61 +1,25 @@
-# Ali Ghorbani Ranjbary – Academic Website
+# Ali Ghorbani Ranjbary — Academic Website
 
-Personal academic website inspired by [albruzos.github.io](https://albruzos.github.io/), designed for **GitHub Pages**.
-
-## Structure
-
-```
-ali-site-v2/
-├── index.html          ← News / Home (with profile sidebar + banners)
-├── cv.html
-├── publications.html
-├── funding.html
-├── awards.html
-├── teaching.html
-├── conferences.html
-├── css/style.css
-├── images/profile.jpg  ← Your photo
-└── README.md
-```
+A responsive GitHub Pages academic website inspired by the structure and visual feel of the supplied reference site.
 
 ## Pages
+- Home
+- News
+- CV
+- Publications
+- Funding
+- Awards
+- Teaching
+- Conferences
 
-| Page | Content |
-|------|---------|
-| **News** (index) | Home with photo, bio, location, latest highlights |
-| **CV** | Full curriculum vitae |
-| **Publications** | Journals, under-review, book chapters |
-| **Funding** | Grants + Patent |
-| **Awards** | Recognitions & reviewer activity |
-| **Teaching** | Mentoring & student supervision |
-| **Conferences** | Selected conference presentations |
+## Deploy to GitHub Pages
+1. Upload all files and folders in this package to the root of the repository.
+2. Commit and push to GitHub.
+3. In GitHub: Settings → Pages → Deploy from a branch → select `main` and `/ (root)`.
+4. The site will be available at the repository's GitHub Pages address.
 
-## How to deploy on GitHub Pages
+The website uses relative links so it works both for a user site and a project site.
 
-1. Download and unzip this folder.
-2. Create or go to your repository:  
-   `https://github.com/alighorbani-phd/alighorbaniranjbary.github.io`
-3. Upload **all files** (keep the folder structure).
-4. Go to **Settings → Pages**.
-5. Source: Deploy from branch `main` / root.
-6. Wait 1–2 minutes → site will be live.
-
-## Customization needed
-
-- Replace the `#` links in the sidebar (Email, Google Scholar, ORCID, ResearchGate) with your real URLs.
-- You can change the banner texts/colors in `index.html`.
-- To add a real banner image: put an image in `images/` and replace the `.banner-placeholder` div with an `<img>`.
-
-## Local preview
-
-Open `index.html` in a browser, or run:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit http://localhost:8000
-
----
-
-Built as pure static HTML/CSS – no build step required.
+## Included assets
+- `assets/profile.jpg` — supplied profile photo
+- `assets/Ali_Ghorbani_Ranjbary_CV.pdf` — supplied CV PDF

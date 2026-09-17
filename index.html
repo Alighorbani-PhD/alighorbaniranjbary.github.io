@@ -1,117 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ali Ghorbani Ranjbary, DVM-Ph.D.</title>
-  <meta name="description" content="Molecular Biology Researcher | Immunology & Tumor Microenvironment | CRISPR Engineering">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Ali Ghorbani Ranjbary</title>
+<meta name="description" content="Academic website of Ali Ghorbani Ranjbary, DVM-Ph.D. Molecular Biology Researcher.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Top Navigation -->
-  <nav class="top-nav">
-    <a href="index.html" class="nav-brand">Ali Ghorbani Ranjbary</a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active">News</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="funding.html">Funding</a></li>
-      <li><a href="awards.html">Awards</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="conferences.html">Conferences</a></li>
-    </ul>
-    <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
-  </nav>
-
-  <div class="page-wrapper">
-    <!-- Left Sidebar (Profile) -->
-    <aside class="sidebar">
-      <img src="images/profile.jpg" alt="Ali Ghorbani Ranjbary" class="profile-photo">
-      <h1>Ali Ghorbani Ranjbary</h1>
-      <p class="bio">
-        DVM-Ph.D.<br>
-        Molecular Biology Researcher<br>
-        Immunology & Tumor Microenvironment<br>
-        CRISPR Engineering
-      </p>
-
-      <div class="info-item">
-        <span class="icon">📍</span>
-        <span>Tehran, Iran</span>
-      </div>
-      <div class="info-item">
-        <span class="icon">🏛️</span>
-        <span>University of Tehran<br>Department of Immunology</span>
-      </div>
-      <div class="info-item">
-        <span class="icon">✉️</span>
-        <a href="mailto:">Email</a>
-      </div>
-      <div class="info-item">
-        <span class="icon">🔗</span>
-        <a href="#" target="_blank">Google Scholar</a>
-      </div>
-      <div class="info-item">
-        <span class="icon">🔗</span>
-        <a href="#" target="_blank">ORCID</a>
-      </div>
-      <div class="info-item">
-        <span class="icon">🔗</span>
-        <a href="#" target="_blank">ResearchGate</a>
-      </div>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- Research Banner -->
-      <div class="banner-placeholder">
-        <h2>Immunology & Cancer Research</h2>
-        <p>Tumor Microenvironment · CRISPR · Apoptosis · Metastasis</p>
-      </div>
-
-      <!-- Latest News Banner style -->
-      <div class="banner-placeholder" style="background: linear-gradient(135deg, #2c5282, #1a365d);">
-        <h2>Latest News</h2>
-        <p>Updates from the lab and recent achievements</p>
-      </div>
-
-      <h2>Recent Highlights</h2>
-
-      <div class="card">
-        <h3>Postdoctoral Research Completed</h3>
-        <p class="meta">University of Tehran · 2020–2021</p>
-        <p>Designed and synthesized lentiviruses equipped with CRISPR-Cas13a system to control PD1 expression and increase P70S6K gene expression in PBMC cells.</p>
-      </div>
-
-      <div class="card">
-        <h3>New Publications (2025–2026)</h3>
-        <p>Several papers published in high-impact journals including <em>BMC Complementary Medicine and Therapies</em>, <em>Archives of Medical Research</em>, and <em>Egyptian Journal of Medical Human Genetics</em>.</p>
-        <p><a href="publications.html">→ View all publications</a></p>
-      </div>
-
-      <div class="card">
-        <h3>Reviewer Activity</h3>
-        <p>Active reviewer for <em>Scientific Reports</em> (Nature) and <em>Journal of Advanced Research</em>.</p>
-      </div>
-
-      <div class="card">
-        <h3>Research Focus</h3>
-        <p>Immunology and tumor microenvironment, cell signaling, apoptosis, metastasis, DNA mismatch repair, CRISPR-Cas systems, T-cell engineering, and PD-1/PD-L1 signaling.</p>
-      </div>
-    </main>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">Ali Ghorbani Ranjbary</a>
+    <nav class="nav"><a href="index.html" class="active">Home</a><a href="news.html" class="">News</a><a href="cv.html" class="">CV</a><a href="publications.html" class="">Publications</a><a href="funding.html" class="">Funding</a><a href="awards.html" class="">Awards</a><a href="teaching.html" class="">Teaching</a><a href="talks.html" class="">Conferences</a></nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
   </div>
+  <nav class="mobile-nav"><a href="index.html">Home</a><a href="news.html">News</a><a href="cv.html">CV</a><a href="publications.html">Publications</a><a href="funding.html">Funding</a><a href="awards.html">Awards</a><a href="teaching.html">Teaching</a><a href="talks.html">Conferences</a></nav>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <img class="avatar" src="profile.jpg" alt="Ali Ghorbani Ranjbary">
+    <div>
+      <h2>Ali Ghorbani Ranjbary</h2>
+      <div class="role">DVM-Ph.D. · Molecular Biology Researcher</div>
+      <div class="meta">
+        <div><span class="icon">●</span> Tehran, Iran</div>
+        <div><span class="icon">◆</span> University of Tehran</div>
+        <div><span class="icon">✉</span> Contact details in CV</div>
+      </div>
+    </div>
+  </aside>
+  <main class="main">
+<section class="hero">
+  <div class="hero-content">
+    <div class="kicker">DVM · Ph.D. · Molecular Biology Researcher</div>
+    <h1>Ali Ghorbani Ranjbary</h1>
+    <p>Immunology · Tumor Microenvironment · Cancer Research · Molecular Biology</p>
+    <p>Research interests include immunology and tumor microenvironment, cell signaling, apoptosis, metastasis, immunosurveillance, colorectal cancer, CRISPR-Cas systems, T-cell engineering and genome research.</p>
+    <a class="btn" href="publications.html">Publications</a>
+    <a class="btn secondary" href="cv.html">View CV</a>
+  </div>
+</section>
 
-  <footer>
-    © 2026 Ali Ghorbani Ranjbary · Built for GitHub Pages
-  </footer>
+<h2 class="section-title">Research profile</h2>
+<div class="cards">
+  <div class="card"><h3>Immunology & Cancer</h3><p>Immunology, tumor microenvironment, cell signaling, trans-signaling, apoptosis, metastasis, cancer research and immunosurveillance.</p></div>
+  <div class="card"><h3>Molecular Engineering</h3><p>CRISPR-Cas9/Cas13a, T-cell engineering, PD1/PDL1 signaling, lentiviral transduction, RNA analysis and genome research.</p></div>
+  <div class="card"><h3>Experimental & Data Analysis</h3><p>RT-qPCR, Western blotting, flow cytometry, tissue culture, cloning, NGS/RNA-seq, GEO datasets and graphical abstract development.</p></div>
+</div>
 
-  <script>
-    // Simple mobile menu close on link click
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.getElementById('navLinks').classList.remove('open');
-      });
-    });
-  </script>
+<h2 class="section-title">Academic highlights</h2>
+<div class="grid2">
+  <div class="info-box"><h3>Current academic profile</h3><p>Molecular Biology Researcher, Department of Immunology at University of Tehran, Iran.</p><p>Postdoctoral research at Tehran University of Tehran (2020–2021), focused on lentiviruses equipped with CRISPR-Cas13a to control PD1 expression and increase P70S6K expression in PBMC cells.</p></div>
+  <div class="info-box"><h3>Selected achievements</h3><p>Top young researcher at the Talent Development Centre of Ferdowsi University of Mashhad (2016–2020); top young researcher at Islamic Azad University (2010–2016); best researcher of Food and Safety Health in Iran (2012).</p></div>
+</div>
+</main>
+</div>
+<footer>© 2026 Ali Ghorbani Ranjbary · Academic website</footer>
+<script src="script.js"></script>
 </body>
 </html>
